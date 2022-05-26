@@ -13,22 +13,7 @@ nav ul li {
     margin-right: 5px;
 }
 
-.fond {
-    position: absolute;
-    float: right;
-    top: 0px;
-    margin-left: 61%;
-}
-
-.logs {
-    margin-right: 10px;
-}
-
-.link :hover {
-    background: linear-gradient( 90deg, #3600f8 0%, #c7249e 100%);
-}
-
-.ejemplo1 {
+.btnStyle {
     background: linear-gradient( 90deg, #3600f8 0%, #c7249e 100%);
     text-decoration: none;
     font-weight: 16px;
@@ -45,7 +30,22 @@ nav ul li {
     border-radius: 5px;
 }
 
-.ejemplo1:hover {
+.fond {
+    position: absolute;
+    float: right;
+    top: 0px;
+    margin-left: 61%;
+}
+
+.logs {
+    margin-right: 10px;
+}
+
+.link :hover {
+    background: linear-gradient( 90deg, #3600f8 0%, #c7249e 100%);
+}
+
+.btnStyle:hover {
     background: linear-gradient( 90deg, #704af8 0%, #f76dd4 100%);
     transition: all .3s;
 }
